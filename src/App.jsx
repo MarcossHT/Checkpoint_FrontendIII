@@ -16,7 +16,7 @@ function App() {
             nameColor: colorName
         }
         
-        if(colorCode === '' || colorName === '' || colorName.length < 3 || colorCode.length < 6) {
+        if( colorName.length < 3 || colorCode.length < 6 ) {
             setVerifyInput(true)
         } 
         else {
